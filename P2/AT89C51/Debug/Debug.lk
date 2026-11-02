@@ -1,0 +1,19 @@
+-muwx
+-i ./Debug.hex
+-M
+-y
+-a HOME = 0x0000
+-a XSEG = 0x0001
+-a PSEG = 0x0001
+-a ISEG = 0x0000
+-a BSEG = 0x0000
+-u
+-k C:\Users\sanga\Documents\Codex\2026-10-26\thi\outputs\Practical_01_Rebuildable\tools\sdcc\bin\..\lib\small
+-l mcs51
+-l libsdcc
+-l libint
+-l liblong
+-l libfloat
+main.rel
+
+-e
